@@ -10,7 +10,7 @@
 </head>
 <body>
 	<h3>${filme}</h3>
-	<c:if test="${filme.posterPath == null}">
+	<c:if test="${filme.posterPath != null}">
 		<h3>Data de Lançamento: <fmt:formatDate value="${filme.dataLancamento}" pattern="dd/MM/yyyy"/></h3>
 		<img alt="poster" src="${filme.posterPath}" height="480" width="320">
 	</c:if>
