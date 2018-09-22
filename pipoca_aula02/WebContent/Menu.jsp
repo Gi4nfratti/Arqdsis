@@ -17,8 +17,8 @@
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catálogo</a>
                     		<ul class="dropdown-menu">
-  						  <li><a href="manterfilmes.do?acao=ordenarGeneros" >por Gênero</a></li>
-  						   <li><a href="manterfilmes.do?acao=ordenarPopularidade">por Popularidade</a></li>
+  						  <li><a href="ListarPorGenero.jsp" >por Gênero</a></li>
+  						   <li><a href="ListarPorPopularidade.jsp">por Popularidade</a></li>
   						   <li><a href="manterfilmes.do?acao=ordenarData">Lançamentos</a></li>
 						</ul>
                     </li>
